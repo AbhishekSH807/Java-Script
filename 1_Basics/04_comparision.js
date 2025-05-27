@@ -14,7 +14,8 @@
 // console.log(null == 0);
 // console.log(null >= 0);
 
-// equality check " == "   // omaprisions " >= <= < >"
+// equality check " == " convert into NaN
+// omaprisions " >= <= < >"
 // comparision convert null to a number treat it as 0
 // so null >= 0 is true and null > 0 is false
 
@@ -23,7 +24,7 @@
 // console.log(undefined > 0);
 // console.log(undefined >= 0);
 
-
+// avoid null and undefined comparisions
 
 // === strict check    also check data type
 
