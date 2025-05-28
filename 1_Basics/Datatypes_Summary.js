@@ -34,11 +34,11 @@ const myFunction = function(){ // function
     
 }
 
-console.log(typeof bigNumber);
-console.log(typeof outsideTemp);
-console.log(typeof myFunction);
-console.log(typeof heros);
-console.log(typeof anotherId);
+// console.log(typeof bigNumber);
+// console.log(typeof outsideTemp);
+// console.log(typeof myFunction);
+// console.log(typeof heros);
+// console.log(typeof anotherId);
 
 // typeof val                           result
 // undefined                        undefined
@@ -48,3 +48,34 @@ console.log(typeof anotherId);
 // string                           string
 // function                         function
 // all non primitive                object function
+
+// https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+// ***********************************************************
+
+
+// Memory : Stack( used in primitive), Heap( used in non-primitive)
+
+let myYoutubename = "abhicom" // stack memory
+
+let anotherName = myYoutubename
+anotherName = "Hanumancode"
+// ita make a duplicate copy in stack memory
+console.log(myYoutubename);
+console.log(anotherName);
+
+
+// heap memory
+let userOne ={
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "abhi@google.com"
+// it change the original value also in the heap memory
+console.log(userOne);
+console.log(userTwo);
+
