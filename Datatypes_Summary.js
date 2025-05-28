@@ -17,8 +17,19 @@ console.log(id == anotherId); // not equal
 
 const bigNumber = 3456788887654334567n // use n in last
 
+
+
 // Non-primitive (Reference type): call bye Reference(memory reference is allowed)
 
 // Array, Objects, Functions
 
-const heros = ["Hanuman", "Ram"]
+const heros = ["Hanuman", "Ram", "Krishna"]; // array
+let myObj = {
+    name: "abhishek", // object declare between curly brases
+    age: 22,
+}
+
+const myFunction = function(){
+    console.log("Hello, world");
+    
+}
