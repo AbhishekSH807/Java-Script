@@ -3,19 +3,19 @@
 // 7 types : String, Number, Boolean, null, undefined, Symbol, BigInt
 
 // const score:Number = 100
-const score = 100 // number
-const scoreValue = 100.3 // number
+// const score = 100 // number
+// const scoreValue = 100.3 // number
 
-const isLoggedIn = false // Boolean
-const outsideTemp = null // null
-let userEmail; // undefined
+// const isLoggedIn = false // Boolean
+// const outsideTemp = null // null
+// let userEmail; // undefined
 
-const id = Symbol('123')
-const anotherId = Symbol('123')
+// const id = Symbol('123')
+// const anotherId = Symbol('123')
 
-console.log(id == anotherId); // not equal
+// console.log(id == anotherId); // not equal
 
-const bigNumber = 3456788887654334567n // use n in last
+// const bigNumber = 3456788887654334567n // use n in last
 
 
 
@@ -34,3 +34,17 @@ const myFunction = function(){ // function
     
 }
 
+console.log(typeof bigNumber);
+console.log(typeof outsideTemp);
+console.log(typeof myFunction);
+console.log(typeof heros);
+console.log(typeof anotherId);
+
+// typeof val                           result
+// undefined                        undefined
+// null                             object
+// boolean                          boolean
+// number                           number
+// string                           string
+// function                         function
+// all non primitive                object function
