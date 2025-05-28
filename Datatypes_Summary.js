@@ -29,7 +29,8 @@ let myObj = {
     age: 22,
 }
 
-const myFunction = function(){
+const myFunction = function(){ // function
     console.log("Hello, world");
     
 }
+
