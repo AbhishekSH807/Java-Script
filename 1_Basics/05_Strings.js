@@ -55,5 +55,26 @@ const strCopy = gameName.split();
 console.log(strCopy);  // give exact duplicate 
 
 
-// blink, bold, charAt, concat, constructor, endsWith, fixed
+// concat, constructor, endsWith, fixed
 
+const str1 = "hii"
+const str2 = "hello"
+console.log(str1.concat(" ",str2)); // " "   its gives gyap between strings
+console.log(str2.concat(", ",str1));  // o/p  hello, hii
+
+class Polygon {
+  constructor() {
+    this.name = "Polygon";
+  }
+}
+
+const poly1 = new Polygon();
+
+console.log(poly1.name);
+// Expected output: "Polygon"
+
+const str4  = "hi i am abhi"
+console.log(str1.endsWith("abhi"))
+console.log(str1.endsWith("abh"))
+console.log(str1.endsWith("hi"))
+// console.log(str1.endsWith("abh", 10))
