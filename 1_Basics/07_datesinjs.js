@@ -14,5 +14,15 @@ let myDate = new Date()
 // let myCreatedDate = new Date(2023, 0, 23)  
 // console.log(myCreatedDate.toDateString());  // Mon Jan 23 2023
 
-let myCreatedDate = new Date(2023, 0, 23, 5, 3)  
-console.log(myCreatedDate.toLocaleString());  // 1/23/2023, 5:03:00 AM
+// let myCreatedDate = new Date(2023, 0, 23, 5, 3)  
+// console.log(myCreatedDate.toLocaleString());  // 1/23/2023, 5:03:00 AM
+
+let myCreatedDate = new Date("01-14-2023")  
+// console.log(myCreatedDate.toLocaleString());  // 1/14/2023, 12:00:00 AM
+
+let myTimeStamp = Date.now()  // to create poles in mili second
+// console.log(myTimeStamp);
+// console.log(myCreatedDate.getTime());
+console.log(Date.now());   // convert in mili seconds   // compare always in mili seconds
+console.log(Math.floor(Date.now()/1000));  // to avoid decimal points
+
