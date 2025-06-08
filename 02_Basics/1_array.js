@@ -44,3 +44,4 @@ console.log("B", myArr);
 const myn2 = myArr.splice(1, 3) // its manipulate the original array means it remove the values which are displayed
 console.log("c", myArr);
 console.log(myn2);
+
