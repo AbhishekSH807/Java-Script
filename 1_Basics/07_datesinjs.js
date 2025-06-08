@@ -23,6 +23,18 @@ let myCreatedDate = new Date("01-14-2023")
 let myTimeStamp = Date.now()  // to create poles in mili second
 // console.log(myTimeStamp);
 // console.log(myCreatedDate.getTime());
-console.log(Date.now());   // convert in mili seconds   // compare always in mili seconds
-console.log(Math.floor(Date.now()/1000));  // to avoid decimal points
+// console.log(Date.now());   // convert in mili seconds   // compare always in mili seconds
+// console.log(Math.floor(Date.now()/1000));  //to get in second and to avoid decimal points
 
+let newDate = new Date()
+console.log(newDate);
+console.log(newDate.getDay()); // start from zero
+console.log(newDate.getMonth());
+console.log(newDate.getMonth() + 1); // to avoid confusion for end user
+
+// `${newDate.getDay()} and the time`
+// ctrl + space give options 
+newDate.toLocaleString('default', {
+    weekday: "long",
+    
+})
