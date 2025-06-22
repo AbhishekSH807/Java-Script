@@ -64,17 +64,17 @@ console.log(str2.concat(", ",str1));  // o/p  hello, hii
 
 class Polygon {
   constructor() {
-    this.name = "Polygon";
-  }
-}
+      this.name = "Polygon";
+        }
+        }
 
-const poly1 = new Polygon();
+        const poly1 = new Polygon();
 
-console.log(poly1.name);
-// Expected output: "Polygon"
+        console.log(poly1.name);
+        // Expected output: "Polygon"
 
-const str4  = "hi i am abhi"
-console.log(str1.endsWith("abhi"))
-console.log(str1.endsWith("abh"))
-console.log(str1.endsWith("hi"))
-// console.log(str1.endsWith("abh", 10))
+        const str4  = "hi i am abhi"
+        console.log(str1.endsWith("abhi"))
+        console.log(str1.endsWith("abh"))
+        console.log(str1.endsWith("hi"))
+        // console.log(str1.endsWith("abh", 10))
