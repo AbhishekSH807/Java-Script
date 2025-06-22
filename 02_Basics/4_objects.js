@@ -71,13 +71,42 @@ const users = [
 
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));  // it give answer in array
+// console.log(Object.keys(tinderUser));  // it give answer in array
 // { id: '123abc', name: 'Jayant', isLoggedIn: false }
 // [ 'id', 'name', 'isLoggedIn' ]
-console.log(Object.values(tinderUser));  // [ '123abc', 'Jayant', false ]
-console.log(Object.entries(tinderUser)); // it seperate each object value with its key value// [ [ 'id', '123abc' ], [ 'name', 'Jayant' ], [ 'isLoggedIn', false ] ]
+// console.log(Object.values(tinderUser));  // [ '123abc', 'Jayant', false ]
+// console.log(Object.entries(tinderUser)); // it seperate each object value with its key value// [ [ 'id', '123abc' ], [ 'name', 'Jayant' ], [ 'isLoggedIn', false ] ]
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn')); // check if property exist or not //  output true
-console.log(tinderUser.hasOwnProperty('isLogg'));  //  false
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')); // check if property exist or not //  output true
+// console.log(tinderUser.hasOwnProperty('isLogg'));  //  false
+
+
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+
+// course.courseInstructor
+
+// const {courseInstructor} = course
+// console.log(courseInstructor);
+
+const {courseInstructor: Instructor} = course  // object destructer
+console.log(Instructor);
+
+// anywhere in react ({}) it means object destructering
+
+// json is object in api
+// api structure
+// {
+//     "name": "Abhi",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// } 
+
+
+
