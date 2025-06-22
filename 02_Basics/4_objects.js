@@ -77,7 +77,7 @@ console.log(Object.keys(tinderUser));  // it give answer in array
 // { id: '123abc', name: 'Jayant', isLoggedIn: false }
 // [ 'id', 'name', 'isLoggedIn' ]
 console.log(Object.values(tinderUser));  // [ '123abc', 'Jayant', false ]
-console.log(Object.entries(tinderUser)); // it seperate each object value // [ [ 'id', '123abc' ], [ 'name', 'Jayant' ], [ 'isLoggedIn', false ] ]
+console.log(Object.entries(tinderUser)); // it seperate each object value with its key value// [ [ 'id', '123abc' ], [ 'name', 'Jayant' ], [ 'isLoggedIn', false ] ]
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn')); // check if property exist or not //  output true
 console.log(tinderUser.hasOwnProperty('isLogg'));  //  false
