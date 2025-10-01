@@ -48,6 +48,36 @@ function loginUserMessage(username = "sam"){
 }
 
 // console.log(loginUserMessage("Abhishek")) // Abhishek just logged in
-console.log(loginUserMessage())  // when u doesn't pass values // undefined just logged in
+//console.log(loginUserMessage())  // when u doesn't pass values // undefined just logged in
+
+
+function calculateCartPrice(...num1){ // rest operator ...
+    return num1
+}
+console.log(calculateCartPrice(200, 400,500)) // [ 200, 400, 500 ]
+
+const user = {
+    username: "abhi",
+    price: 199
+}
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and priceis ${anyobject.price}`);
+    
+}
+
+// handleObject(user)  // Username is abhi and priceis 199
+handleObject({
+    username: "Abhi",
+    price: 399
+})
+
+const myNewArray = [200, 400, 100, 600]
+
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+// console.log(returnSecondValue(myNewArray));  // 400
+console.log(returnSecondValue([200,300,400,500]));
 
 
