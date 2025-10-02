@@ -23,7 +23,7 @@ function one(){
 
     function two(){
         const website = "youtube"
-        console.log(username);
+        // console.log(username);
         
     }
     // console.log(website);
@@ -31,3 +31,33 @@ function one(){
 
 }
 one() 
+
+if (true){
+    const username = "Abhi"
+    if (username === "Abhi"){
+        const website = " Youtube"
+        // console.log(username + website);
+        
+    }
+    // console.log(website);
+    
+}
+// console.log(username);
+
+
+// +++++++++++++++++++++ Interesting +++++++++++++++++++++//
+
+console.log(addone(5)); // 6 it also give correct o/p
+
+function addone(num) {
+    return num + 1
+    
+}
+// console.log(addone(5)) // 6 correct o/p
+
+// when you store a function in a varibale it cannot be called before the code
+// console.log(addTwo(5)); // error cannot get function
+const addTwo = function (num) {
+    return num + 2
+}
+console.log(addTwo(5)) // 7 
