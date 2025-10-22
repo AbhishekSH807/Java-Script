@@ -36,6 +36,7 @@ const newNums = myNums.filter( (num) => {
 console.log(newNums);
 */
 
+/*
 const newNums = []
 
 myNums.forEach( (num) => {
@@ -44,3 +45,6 @@ myNums.forEach( (num) => {
     }
 })
 console.log(newNums);
+
+*/
+
