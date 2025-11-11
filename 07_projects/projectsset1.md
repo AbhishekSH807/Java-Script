@@ -58,9 +58,10 @@ form.addEventListener('submit', (e) => {
 });
 ```
 
-```
+
 ## project 3
 ```javascript
+
 const clock = document.getElementById('clock');
 // const clock = document.querySelector('#clock')
 
