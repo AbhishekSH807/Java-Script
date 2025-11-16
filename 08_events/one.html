@@ -23,6 +23,47 @@
     //     alert("owl clicked")
     // }
 
-    document.getElementById('owl').addEventListener
+    // document.getElementById('owl').addEventListener('click', function(){}, false) // by default false is there
+    // document.getElementById('owl').addEventListener('click', function(){
+    //     alert("owl clicked")
+    // }) 
+    // attachEvent()
+    // jQuery - on
+
+    // type, timestamp, defaultPrevented, 
+    // target, toElement, srcElement, currentTarget
+    // clientX, clientY, screenY
+    // altkey, ctrlkey, shiftkey, keyCode
+
+    
+    // document.getElementById('images').addEventListener('click', function(e){
+    //    console.log("clicked inside the ul");
+    // }, false) 
+    // // bubling - lower to upper running while use false
+    // // upper to lower when true is called capturing
+    // document.getElementById('owl').addEventListener('click', function(e){
+    //    console.log("owl clicked");
+    //    e.stopPropagation()  // it will stop bubbling to go upside
+    // }, false) 
+    // 
+    // document.getElementById('google').addEventListener('click', function(e){
+    //     e.preventDefault()
+    //     e.stopPropagation()
+    //     console.log("google clicked");
+    // }, false)
+
+    document.querySelector('#images').addEventListener('click', function(e){
+        console.log(e.target.tagName);
+        if (e.target.tagName === 'IMG'){
+            console.log(e.target.id);
+            
+            let removeIt = e.target.parentNode
+            removeIt.remove()
+        }
+       
+        // removeIt.parentNode.removeChild(removeIt)
+        
+    }, false)
+
 </script>
 </html>
