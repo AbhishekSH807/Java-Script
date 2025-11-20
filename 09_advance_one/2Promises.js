@@ -19,6 +19,6 @@ new Promise(function(resolve, reject){
         
     }, 1000)
 }).then(function(){
-    console.log("Async 2 revolved");
+    console.log("Async 2 resolved");
     
 })
